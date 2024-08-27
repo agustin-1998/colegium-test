@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="fixed top-0 flex justify-center items-center w-full bg-white py-3">
     <div class="flex justify-center items-center flex-col">
       <section>
         <h1 class="text-left">Resumen del día</h1>

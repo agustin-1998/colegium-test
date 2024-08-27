@@ -1,4 +1,5 @@
 <script setup>
+import FooterComponent from '@/components/FooterComponent.vue'
 import HomeComponent from '@/components/HomeComponent.vue'
 </script>
 
@@ -6,4 +7,6 @@ import HomeComponent from '@/components/HomeComponent.vue'
   <main>
     <HomeComponent />
   </main>
+
+  <FooterComponent />
 </template>
