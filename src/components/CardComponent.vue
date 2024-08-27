@@ -66,14 +66,12 @@ const store = useStudentsStore()
 const { changeStatus } = store
 
 const showAlert = ({ name, status, id }) => {
+  router.push(`/` + id)
   const show = `
     id: ${id}
     status: ${status}
     name: ${name}
   `
-
-  router.push(`/` + id)
-
   window.alert(show)
 }
 

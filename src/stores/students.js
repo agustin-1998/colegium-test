@@ -22,7 +22,7 @@ export const useStudentsStore = defineStore('studentsStore', {
         image: 'https://randomuser.me/api/portraits/men/3.jpg',
         name: 'Michael Johnson',
         status: 'presente',
-        curso: 'historia'
+        curso: 'Historia'
       },
       {
         id: 4,
